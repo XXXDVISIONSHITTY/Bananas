@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="bananas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/flatlaf-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/miglayout-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/flatlaf-intellij-themes-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
