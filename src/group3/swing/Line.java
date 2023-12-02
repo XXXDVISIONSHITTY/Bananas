@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import javax.swing.JLabel;
 
 public class Line extends JLabel {
-
+//this is my line class
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
