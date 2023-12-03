@@ -3,8 +3,11 @@ package group3.component;
 import group3.model.Model_File_Sender;
 
 import java.awt.Color;
+<<<<<<< HEAD
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+=======
+>>>>>>> refs/remotes/origin/main
 import javax.swing.Icon;
 
 public class Chat_Right extends javax.swing.JLayeredPane {
@@ -39,8 +42,12 @@ public class Chat_Right extends javax.swing.JLayeredPane {
     }
 
     public void setTime() {
+<<<<<<< HEAD
         String currentTime = LocalTime.now().format(DateTimeFormatter.ofPattern("h:mm a"));
         txt.setTime(currentTime);
+=======
+        txt.setTime("10:30 PM");
+>>>>>>> refs/remotes/origin/main
     }
 
     @SuppressWarnings("unchecked")

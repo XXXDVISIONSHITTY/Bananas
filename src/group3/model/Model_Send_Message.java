@@ -5,6 +5,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Model_Send_Message {
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main
     public MessageType getMessageType() {
         return messageType;
     }

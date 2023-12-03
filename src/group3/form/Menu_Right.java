@@ -1,5 +1,6 @@
 package group3.form;
 
+<<<<<<< HEAD
 import group3.component.Chat_Body;
 import group3.component.Chat_Bottom;
 import group3.event.EventChat;
@@ -54,16 +55,37 @@ public class Menu_Right extends javax.swing.JPanel {
     @SuppressWarnings("unchecked")
     private void initComponents() {
         setBackground(new java.awt.Color(245, 207, 60));
+=======
+public class Menu_Right extends javax.swing.JPanel {
+
+    public Menu_Right() {
+        initComponents();
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        setBackground(new java.awt.Color(212, 172, 13 ));
+>>>>>>> refs/remotes/origin/main
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                         .addGap(0, 727, Short.MAX_VALUE)
+=======
+                        .addGap(0, 200, Short.MAX_VALUE)
+>>>>>>> refs/remotes/origin/main
         );
         layout.setVerticalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGap(0, 681, Short.MAX_VALUE)
         );
+<<<<<<< HEAD
     }
+=======
+    }// </editor-fold>//GEN-END:initComponents
+
+>>>>>>> refs/remotes/origin/main
 }

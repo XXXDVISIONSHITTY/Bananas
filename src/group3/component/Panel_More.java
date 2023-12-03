@@ -82,10 +82,14 @@ public class Panel_More extends javax.swing.JPanel {
                         for (File file : files) {
                             Model_Send_Message message = new Model_Send_Message(MessageType.IMAGE, Service.getInstance().getUser().getUserID(), user.getUserID(), "");
                             Service.getInstance().addFile(file, message);
+<<<<<<< HEAD
                             if(getUser().getUserID()!=0)
                                 PublicEvent.getInstance().getEventChat().sendMessage(message);
                             else
                                 PublicEvent.getInstance().getEventGroup().sendMessage(message);
+=======
+                            PublicEvent.getInstance().getEventChat().sendMessage(message);
+>>>>>>> refs/remotes/origin/main
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -160,10 +164,14 @@ public class Panel_More extends javax.swing.JPanel {
             public void actionPerformed(ActionEvent ae) {
                 Model_Send_Message message = new Model_Send_Message(MessageType.EMOJI, Service.getInstance().getUser().getUserID(), user.getUserID(), data.getId() + "");
                 sendMessage(message);
+<<<<<<< HEAD
                 if(getUser().getUserID()!=0)
                     PublicEvent.getInstance().getEventChat().sendMessage(message);
                 else
                     PublicEvent.getInstance().getEventGroup().sendMessage(message);
+=======
+                PublicEvent.getInstance().getEventChat().sendMessage(message);
+>>>>>>> refs/remotes/origin/main
             }
         });
         return cmd;

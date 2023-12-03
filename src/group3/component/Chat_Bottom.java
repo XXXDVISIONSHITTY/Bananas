@@ -112,10 +112,14 @@ public class Chat_Bottom extends javax.swing.JPanel {
         if (!text.equals("")) {
             Model_Send_Message message = new Model_Send_Message(MessageType.TEXT, Service.getInstance().getUser().getUserID(), user.getUserID(), text);
             send(message);
+<<<<<<< HEAD
             if(user.getUserID()!=0)
                 PublicEvent.getInstance().getEventChat().sendMessage(message);
             else
                 PublicEvent.getInstance().getEventGroup().sendMessage(message);
+=======
+            PublicEvent.getInstance().getEventChat().sendMessage(message);
+>>>>>>> refs/remotes/origin/main
             txt.setText("");
             txt.grabFocus();
             refresh();
