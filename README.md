@@ -10,7 +10,7 @@ Bananas - A new way to talk. Where everything is meaningless.
 * Add all the jar files in project libraries / dependicies.
   
 ### Running the application
-* Run main after starting the server on port 9999
+* Run bananas/src/group3/main after starting the server on port 9999
 * Done!!
 
 ## About Bananas
