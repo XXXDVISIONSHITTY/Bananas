@@ -4,7 +4,7 @@ Bananas - A new way to talk. Where everything is meaningless.
 ## Setting up
 ### PreReqs
 * Initialize a database.
-* In the server branch setup the database in src/group3/connection/DataBaseConnection
+* In the server branch setup the database in server/src/group3/connection/DataBaseConnection
 * Run the server project on intelliJ
 * Run the schema.sql script on the database to initialize the table and insert some dummy accounts.
 * Add all the jar files in project libraries / dependicies.
