@@ -43,7 +43,7 @@ public class Panel_More extends javax.swing.JPanel {
         panelHeader = new JPanel();
         panelHeader.setLayout(new BoxLayout(panelHeader, BoxLayout.LINE_AXIS));
         panelHeader.add(getButtonImage());
-        panelHeader.add(getButtonFile());
+//      panelHeader.add(getButtonFile());
         panelHeader.add(getEmojiStyle1());
         panelHeader.add(getEmojiStyle2());
         add(panelHeader, "w 100%, h 30!, wrap");

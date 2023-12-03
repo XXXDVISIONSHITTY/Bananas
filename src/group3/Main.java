@@ -12,6 +12,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Main extends javax.swing.JFrame {
+
+    private group3.swing.PictureBox pic;
     public Main() {
         initComponents();
         init();
@@ -30,6 +32,7 @@ public class Main extends javax.swing.JFrame {
         home.setVisible(false);
         initEvent();
         Service.getInstance().startServer();
+
     }
 
     private void initEvent() {
@@ -72,6 +75,7 @@ public class Main extends javax.swing.JFrame {
 
     private void initComponents() {
 
+        pic = new group3.swing.PictureBox();
         border = new javax.swing.JPanel();
         background = new javax.swing.JPanel();
         title = new javax.swing.JPanel();
@@ -83,12 +87,13 @@ public class Main extends javax.swing.JFrame {
         vIew_Image = new View_Image();
         home = new group3.form.Home();
 
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        border.setBackground(new java.awt.Color(241, 196, 15  ));
+        border.setBackground(new java.awt.Color(93, 173, 226  ));
 
-        background.setBackground(new java.awt.Color(212, 172, 13 ));
+        background.setBackground(new java.awt.Color(241, 196, 15 ));
 
         title.setBackground(new java.awt.Color(212, 172, 13 ));
         title.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {

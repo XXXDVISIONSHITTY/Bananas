@@ -36,7 +36,7 @@ public class Item_People extends javax.swing.JPanel {
 
             @Override
             public void mouseExited(MouseEvent me) {
-                setBackground(new Color(242, 242, 242));
+                setBackground(new Color(249, 231, 159));
                 mouseOver = false;
             }
 
@@ -58,7 +58,7 @@ public class Item_People extends javax.swing.JPanel {
         lbStatus = new javax.swing.JLabel();
         activeStatus = new group3.swing.ActiveStatus();
 
-        setBackground(new java.awt.Color(242, 242, 242));
+        setBackground(new java.awt.Color(249, 231, 159));
 
         imageAvatar1.setBorderSize(0);
         imageAvatar1.setImage(new javax.swing.ImageIcon("src/group3/icon/user.png"));
@@ -67,7 +67,7 @@ public class Item_People extends javax.swing.JPanel {
 
         lbStatus.setFont(new java.awt.Font("sansserif", 2, 12)); // NOI18N
         lbStatus.setForeground(new java.awt.Color(117, 117, 117));
-        lbStatus.setText("New User");
+        //lbStatus.setText("Online");
 
         activeStatus.setActive(true);
 

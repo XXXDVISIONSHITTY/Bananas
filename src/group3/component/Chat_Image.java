@@ -8,8 +8,11 @@ import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import javax.swing.*;
 
+import group3.swing.blurHash.BlurHash;
 import net.miginfocom.swing.MigLayout;
 
 public class Chat_Image extends javax.swing.JLayeredPane {
@@ -27,10 +30,12 @@ public class Chat_Image extends javax.swing.JLayeredPane {
         add(pic, "wrap");
     }
     public void addImage(Model_Receive_Image dataImage) {
-        Image_Item pic = new Image_Item();
+        Image_Item pic= new Image_Item();
+        Icon image = new ImageIcon("client_data/"+ dataImage.getFileID()+".png");
+
         pic.setPreferredSize(new Dimension(dataImage.getWidth(), dataImage.getHeight()));
         pic.setImage(dataImage);
-        //  addEvent(pic, image);
+        addEvent(pic, image);
         add(pic, "wrap");
     }
     private void addEvent(Component com, Icon image) {

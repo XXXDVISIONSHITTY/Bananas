@@ -82,7 +82,6 @@ public class Menu_Left extends javax.swing.JPanel {
     }
 
     private void showMessage() {
-        //  test data
         menuList.removeAll();
         for (Model_User_Account d : userAccount) {
             menuList.add(new Item_People(null), "wrap");
@@ -90,22 +89,20 @@ public class Menu_Left extends javax.swing.JPanel {
         refreshMenuList();
     }
 
-    private void showGroup() {
-        //  test data
-        menuList.removeAll();
-        for (int i = 0; i < 5; i++) {
-            menuList.add(new Item_People(null), "wrap");
-        }
-        refreshMenuList();
-    }
-    private void showBox() {
-        //  test data
-        menuList.removeAll();
-        for (int i = 0; i < 10; i++) {
-            menuList.add(new Item_People(null), "wrap");
-        }
-        refreshMenuList();
-    }
+//    private void showGroup() {
+//        menuList.removeAll();
+//        for (int i = 0; i < 5; i++) {
+//            menuList.add(new Item_People(null), "wrap");
+//        }
+//        refreshMenuList();
+//    }
+//    private void showBox() {
+//        menuList.removeAll();
+//        for (int i = 0; i < 10; i++) {
+//            menuList.add(new Item_People(null), "wrap");
+//        }
+//        refreshMenuList();
+//    }
 
     private void refreshMenuList() {
         menuList.repaint();
@@ -114,7 +111,7 @@ public class Menu_Left extends javax.swing.JPanel {
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents(){
 
         menu = new javax.swing.JLayeredPane();
         menuMessage = new group3.component.MenuButton();
